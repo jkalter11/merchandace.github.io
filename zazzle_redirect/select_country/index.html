@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<META http-equiv="Content-Type" Content="text/html; charset=utf-8">
+	<title>Zazzle Redirect - Merchandace</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<style type="text/css">
+		ul {
+			list-style-type: none;
+		}
+		li {
+			float: left;
+			text-align: center;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="content" style="text-align: center;">
+<img src="/images/logo100.png" width="auto" height="40" alt="Merchandace" />
+<p style="font-size: 18px;"><strong>Please select your local Zazzle site to view items in your currency and get the cheapest shipping.</strong><br />We will remember your choice, and you will automatically be redirected to your chosen site in the future.</p>
+<div style="width: 75%; margin-left: auto; margin-right: auto;">
+<ul>
+	<li><a href="javascript:go('us');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/com.gif" width="48" height="55"/><br />USA</a></li>
+	<li><a href="javascript:go('ca');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/ca.gif" width="48" height="55"/><br />Canada</a></li>
+	<li><a href="javascript:go('uk');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/couk.gif" width="48" height="55"/><br />UK</a></li>
+	<li><a href="javascript:go('de');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/de.gif" width="48" height="55"/><br />Deutschland</a></li>
+	<li><a href="javascript:go('es');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/es.gif" width="48" height="55"/><br />España</a></li>
+	<li><a href="javascript:go('fr');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/fr.gif" width="48" height="55"/><br />France</a></li>
+	<li><a href="javascript:go('pt');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/pt.gif" width="48" height="55"/><br />Portugal</a></li>
+	<li><a href="javascript:go('se');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/se.gif" width="48" height="55"/><br />Sverige</a></li>
+	<li><a href="javascript:go('nl');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/nl.gif" width="48" height="55"/><br />Nederland</a></li>
+	<li><a href="javascript:go('at');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/at.gif" width="48" height="55"/><br />Österreich</a></li>
+	<li><a href="javascript:go('ch');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/ch.gif" width="48" height="55"/><br />Suisse/Schweiz</a></li>
+	<li><a href="javascript:go('be');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/be.gif" width="48" height="55"/><br />Belgique/België</a></li>
+	<li><a href="javascript:go('au');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/comau.gif" width="48" height="55"/><br />Australia</a></li>
+	<li><a href="javascript:go('nz');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/conz.gif" width="48" height="55"/><br />New Zealand</a></li>
+	<li><a href="javascript:go('jp');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/cojp.gif" width="48" height="55"/><br />Japan</a></li>
+	<li><a href="javascript:go('br');"><img src="https://www.zazzle.com/assets/graphics/z2/icons/round_flags/combr.gif" width="48" height="55"/><br />Brasil</a></li>
+</ul>
+</div>
+<p style="clear:both; font-size: 13px; margin-top: -10px;">By selecting your local site, you agree to us placing a cookie on your computer to remember your choice. The cookie will only be used for redirecting you to your preferred Zazzle site, and won't be used to track you or for any other purpose.</p>
+</div>
+</div>
+<div class="footer">
+	Copyright &copy; 2015 Merchandace. All rights reserved.
+</div>
+
+<script language="javascript" type="text/javascript">
+	function getQueryString() {
+	  var result = {}, queryString = location.search.slice(1),
+		  re = /([^&=]+)=([^&]*)/g, m;
+
+	  while (m = re.exec(queryString)) {
+		result[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+	  }
+
+	  return result;
+	}
+		
+	function go(country) {
+		var id = getQueryString()["id"];
+		var desturl = "/zazzle_redirect?id=" + id + "&c=" + country;
+		document.location = desturl;
+		return true;
+	}
+</script>
+
+</body>
+</html>
