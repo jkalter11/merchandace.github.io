@@ -51,6 +51,12 @@
 		
 			var productId = get["id"];
 			var affiliateId = "238836089438116117";
+			
+			if (get["usonly"]) {
+				var desturl = "https://www.zazzle.com/" + productId + "?rf=" + affiliateId;
+				document.location = desturl;
+				return true;
+			}
 		
 			var country = getCookie('zazzle_country');
 			if (get["c"]) country = get["c"];
