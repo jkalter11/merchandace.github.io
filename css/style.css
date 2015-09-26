@@ -35,6 +35,18 @@ div.coverlogo {
 h1.covertitle {
   display: none; }
 
+div.socialmedia {
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  text-align: left;
+  height: 7%;
+  width: 90%; }
+  div.socialmedia img {
+    width: auto;
+    height: 100%;
+    margin-right: 5px; }
+
 div.container {
   width: 90%;
   max-width: 900px;
