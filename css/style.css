@@ -148,6 +148,17 @@ div.footer {
     div.footer a:hover, div.footer a:link, div.footer a:active, div.footer a:visited {
       color: #333; }
 
+img.welcomeimage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; }
+
+div.welcomeimagecredit {
+  width: 100%;
+  text-align: right;
+  font-size: 70%;
+  margin-top: -20px; }
+
 div.pagination {
   text-align: center; }
   div.pagination .page {
