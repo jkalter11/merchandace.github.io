@@ -75,7 +75,8 @@ div.left {
       text-indent: -0.8em; }
 
 div.right {
-  margin-left: 200px; }
+  margin-left: 200px;
+  height: 100%; }
 
 div.breadcrumb {
   font-size: 14px;
