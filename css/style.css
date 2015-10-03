@@ -52,12 +52,14 @@ div.container {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #bcbcbc; }
+  background-color: #bcbcbc;
+  display: table; }
 
 div.left {
   width: 200px;
   float: left;
-  margin-left: 10px; }
+  margin-left: 10px;
+  display: table-cell; }
   div.left h3 {
     font-size: 18px;
     font-weight: bold;
@@ -76,6 +78,9 @@ div.left {
 
 div.right {
   margin-left: 200px;
+  height: 100%;
+  display: table-cell;
+  vertical-align: top;
   height: 100%; }
 
 div.breadcrumb {
@@ -89,7 +94,7 @@ div.content {
   padding: 10px;
   background-color: white;
   font-size: 16px;
-  min-height: 400px; }
+  min-height: 800px; }
   div.content h2 {
     margin-top: -5px;
     margin-bottom: 0px;
