@@ -156,7 +156,8 @@ ul.products {
       text-indent: 0; }
       ul.products li ul.producttags li {
         display: inline;
-        margin-right: -0.12em; }
+        margin-right: -0.12em;
+        border: none; }
       ul.products li ul.producttags li + li:before {
         content: ", "; }
       ul.products li ul.producttags li:first-child:before {
