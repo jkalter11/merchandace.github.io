@@ -208,14 +208,51 @@
 
 		</div>
 		<div class="right">
-			
-	
-
-
 			<div class="content">
 				<h2></h2>
-<a href="/about"><img src="/images/welcome.jpg" class="welcomeimage" /></a>
-<p><div class="welcomeimagecredit">Photo by <a href="https://commons.wikimedia.org/wiki/File:WorldPride_2012_-_175.jpg" target="_blank">Tom Morris</a></div></p>
+<div id="rotator">
+
+	
+		<div style="display: block;">
+	
+		<a href="/about"><img src="/images/promos/welcome.jpg" class="promoimage" alt="Welcome to Merchandace - find out more..." title="Welcome to Merchandace - find out more..." /></a>
+	</div>
+
+	
+		<div style="display: none;">
+	
+		<a href="/promos/aaw2015"><img src="/images/promos/aaw2015.jpg" class="promoimage" alt="Asexual Awareness Week is in the cards!" title="Asexual Awareness Week is in the cards!" /></a>
+	</div>
+
+</div>
+
+<script language="javascript">
+	function rotate() {
+		var showNext = false;
+		var first = -1;
+		var rotator = document.getElementById("rotator");
+		for (var i=0; i<rotator.childNodes.length; i++) {
+			var child = rotator.childNodes[i];
+			if (child.nodeName == 'DIV') {
+				if (first == -1)
+					first = i;
+				if (child.style.display == "block") {
+					child.style.display = "none";
+					showNext = true;
+				} else if (showNext) {
+					child.style.display = "block";
+					showNext = false;
+				}
+			}
+		}
+		if (showNext)
+			rotator.childNodes[first].style.display = "block";
+		
+		setTimeout(rotate, 7000);
+	}
+	
+	setTimeout(rotate, 7000);
+</script>
 
 <h2>Our latest products</h2>
 <table class="newproducts"><tr>
@@ -703,7 +740,6 @@
 	
 	</tr>
 </table>
-
 
 
 			</div>

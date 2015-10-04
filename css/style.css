@@ -79,13 +79,6 @@ div.right {
   vertical-align: top;
   height: 100%; }
 
-div.breadcrumb {
-  font-size: 14px;
-  padding-top: 2px;
-  padding-bottom: 2px; }
-  div.breadcrumb a {
-    font-style: italic; }
-
 div.content {
   padding: 10px;
   background-color: white;
@@ -183,16 +176,10 @@ div.footer {
     div.footer a:hover, div.footer a:link, div.footer a:active, div.footer a:visited {
       color: #333; }
 
-img.welcomeimage {
+img.promoimage {
   width: 100%;
   height: auto;
   border-radius: 10px; }
-
-div.welcomeimagecredit {
-  width: 100%;
-  text-align: right;
-  font-size: 70%;
-  margin-top: -20px; }
 
 div.pagination {
   text-align: center; }
