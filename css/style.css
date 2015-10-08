@@ -233,6 +233,7 @@ table.newproducts {
   line-height: 110%;
   border: none; }
   table.newproducts td {
+    border: none;
     text-align: center;
     vertical-align: top;
     padding-bottom: 12px;
@@ -240,8 +241,8 @@ table.newproducts {
     font-size: 110%;
     font-weight: bold; }
     table.newproducts td img {
-      width: 100%;
-      height: auto; }
+      width: auto;
+      height: 180px; }
     table.newproducts td p {
       margin: 0; }
     table.newproducts td p.price {
