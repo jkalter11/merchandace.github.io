@@ -57,7 +57,7 @@ div.left {
   width: 200px;
   float: left;
   margin-left: 10px;
-  min-height: 800px; }
+  min-height: 900px; }
   div.left h3 {
     font-size: 18px;
     font-weight: bold;
@@ -83,7 +83,7 @@ div.content {
   padding: 10px;
   background-color: white;
   font-size: 16px;
-  min-height: 800px; }
+  min-height: 900px; }
   div.content h2 {
     margin-top: -5px;
     margin-bottom: 0px;
@@ -242,7 +242,7 @@ table.newproducts {
     font-weight: bold; }
     table.newproducts td img {
       width: auto;
-      height: 180px; }
+      height: 170px; }
     table.newproducts td p {
       margin: 0; }
     table.newproducts td p.price {
