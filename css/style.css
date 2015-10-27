@@ -57,7 +57,7 @@ div.left {
   width: 210px;
   float: left;
   margin-left: 10px;
-  min-height: 1000px; }
+  min-height: 1120px; }
   div.left h3 {
     font-size: 18px;
     font-weight: bold;
@@ -83,7 +83,7 @@ div.content {
   padding: 10px;
   background-color: white;
   font-size: 16px;
-  min-height: 1000px; }
+  min-height: 1120px; }
   div.content h2 {
     margin-top: -5px;
     margin-bottom: 0px;
@@ -204,17 +204,6 @@ div.pagination {
       color: #f0f0f0;
       text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); }
 
-table.newproducts {
-  line-height: 100%;
-  border: none; }
-  table.newproducts td {
-    text-align: center;
-    vertical-align: top;
-    width: 200px; }
-    table.newproducts td img {
-      width: 90%;
-      height: auto; }
-
 table.shopfor {
   width: 100%;
   line-height: 100%;
@@ -242,7 +231,8 @@ table.newproducts {
     font-weight: bold; }
     table.newproducts td img {
       width: auto;
-      height: 170px; }
+      height: 170px;
+      max-width: 160px; }
     table.newproducts td p {
       margin: 0; }
     table.newproducts td p.price {
