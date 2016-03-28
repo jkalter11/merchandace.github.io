@@ -57,7 +57,7 @@ div.left {
   width: 210px;
   float: left;
   margin-left: 10px;
-  min-height: 1380px; }
+  min-height: 1400px; }
   div.left h3 {
     font-size: 18px;
     font-weight: bold;
@@ -83,7 +83,7 @@ div.content {
   padding: 10px;
   background-color: white;
   font-size: 16px;
-  min-height: 1380px; }
+  min-height: 1400px; }
   div.content h2 {
     margin-top: -5px;
     margin-bottom: 0px;
