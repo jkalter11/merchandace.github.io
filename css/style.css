@@ -248,3 +248,16 @@ p.morenew {
   text-align: right;
   font-size: 140%;
   font-weight: bold; }
+
+.cc_container {
+  color: #666 !important; }
+  .cc_container a:link, .cc_container a:active, .cc_container a:visited {
+    color: #6600ff !important; }
+  .cc_container a:hover {
+    color: #140033 !important; }
+  .cc_container a.cc_btn {
+    color: white !important; }
+    .cc_container a.cc_btn:link, .cc_container a.cc_btn:active, .cc_container a.cc_btn:visited {
+      background-color: #6600ff !important; }
+    .cc_container a.cc_btn:hover {
+      background-color: #140033 !important; }
